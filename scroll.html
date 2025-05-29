@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Features Carousel</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">My Portfolio</div>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Features</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <h2 class="sidebar-title">Features</h2>
+    <ul class="sidebar-links">
+      <li><a href="#">Navbar</a></li>
+      <li><a href="#">Sidebar</a></li>
+      <li><a href="#">Modal</a></li>
+    </ul>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="main-container">
+    <div class="card card-animate">
+      <img id="profile-img" src="" alt="Profile" />
+      <h2 id="feature-number">1</h2>
+      <h3 id="feature-name">John Doe</h3>
+
+      <p class="label">Technology Used</p>
+      <p id="tech-used" class="tech-text">React, Tailwind CSS</p>
+
+      <p class="label">Description</p>
+      <p id="feature-description">Experienced frontend developer skilled in building interactive UIs.</p>
+    </div>
+
+    <div class="buttons">
+      <button id="prevBtn">&#8592;</button>
+      <button id="nextBtn">&#8594;</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
