@@ -10,6 +10,7 @@ body {
   flex-direction: column;
   background: linear-gradient(135deg, #f9f9f9, #e0f7fa);
   min-height: 100vh;
+  background: fixed;
 }
 
 /* Navbar */

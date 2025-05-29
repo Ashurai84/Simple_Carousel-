@@ -1,21 +1,39 @@
 const data = [
   {
     img: "https://randomuser.me/api/portraits/men/45.jpg",
-    name: "John Doe",
+    name: "Paddy sir ",
     tech: "HTML, CSS",
     desc: "Built responsive UI for landing pages.",
   },
   {
     img: "https://randomuser.me/api/portraits/men/32.jpg",
-    name: "Arjun Singh",
+    name: " ashutosh  rai ",
     tech: "JavaScript, React",
     desc: "Developed dynamic SPAs with APIs.",
   },
   {
     img: "https://randomuser.me/api/portraits/men/78.jpg",
-    name: "Carlos Mendez",
+    name: " manas bbhai",
     tech: "Python, Django",
     desc: "Handled backend APIs and database models.",
+  },
+    {
+    img: "https://randomuser.me/api/portraits/men/79.jpg",
+    name: " Piyush",
+    tech: " Django",
+    desc: " kuch bhbi nahi .",
+  },
+    {
+    img: "https://randomuser.me/api/portraits/men/80.jpg",
+    name: "Sahil",
+    tech: "Python,",
+    desc: "create  music from the  games.",
+  },
+    {
+    img: "https://randomuser.me/api/portraits/men/81.jpg",
+    name: "Tejas",
+    tech: " CR ",
+    desc: "Handled backend   of the  elon musk classes .",
   },
 ];
 
